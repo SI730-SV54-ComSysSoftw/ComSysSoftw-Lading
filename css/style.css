@@ -1,0 +1,174 @@
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+    min-height: 100%;
+}
+
+body{
+    font-family: Roboto;
+    font-size: 17px;
+}
+
+
+
+
+/*---------------------------------------------*/
+
+
+.ContactUs {
+    width: 100%;
+    display: flex;
+    font-family: Roboto;
+}
+.ContactUs p{
+    font-size: 48px;
+    margin-left: 149px;
+    width: 100%;
+    
+}
+
+
+
+
+.callTo{
+
+    margin-top: 90px;
+    
+    width: 40%;
+}
+
+.join-form{
+    
+    align-items: center;
+    margin: 100px;
+    
+}
+
+.form-group,.form-group-Email{
+    
+    margin:1rem;
+    border-radius: 10%;
+    display: flex;
+    border-color: #ABC8D2;
+    justify-content: left;
+    
+}
+
+.form-group label{
+    font-size: 18px;
+    margin-left: 175px;
+    margin-right: 100px;
+   
+}
+.form-group input,.form-group-Email input{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 1px 0;
+    box-sizing: border-box;
+}
+.form-group-Email label{
+    font-size: 18px;
+    margin-left: 175px;
+    margin-right: 120px;
+
+}
+
+
+
+.btn {
+    
+    background-color: white;
+    color: black;
+    border: 2px solid #70F1FA;
+    cursor:pointer;
+    
+    margin-left: 350px;
+    font-family: Roboto;
+    font-size: 25px;
+    margin-top: 15px;
+    transition-duration: 0.4s;
+}
+
+.btn:hover{
+    background-color: #70F1FA; 
+    color: white;
+}
+
+.socialMedia {
+    margin-top: 50px;
+    padding: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+    background-color: #70F1FA;
+    
+    
+}
+
+.column{
+    font-family: Roboto;
+    justify-content: left;
+    width: 600px;
+    left: 20px;
+}
+
+
+.title{
+    
+    font-family: sans-serif;
+    font-size: 30px;
+    color: #1D3557;
+}
+.subtitle{
+    color: #181433;
+    font-family: "Roboto Thin";
+    font-size: 16px;
+}
+
+
+
+/*-------------------------------------*/
+
+
+
+/*-------------------------------*/
+
+
+
+.Sendmail {
+    background-color: #70F1FA;
+    color: black;
+    border: 2px solid black;
+    color:black;
+    font-family: Roboto;
+    font-size: 18px;
+    transition-duration: 0.4s;
+    cursor:pointer;
+   
+}
+
+.Sendmail:hover{
+    background-color: black; 
+    color: white;
+
+}
+
+.d41 input{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.social {
+    height: 3rem;
+    margin-bottom: 2rem;
+    border-radius: 100%;
+}
+
