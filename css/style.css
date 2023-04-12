@@ -25,33 +25,59 @@ body{
     display: flex;
     font-family: Roboto;
 }
-.ContactUs p{
+
+
+.titlec{
+   
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
     font-size: 48px;
+    line-height: 66px;
     margin-left: 149px;
+    
+}
+
+.subtitlec{
+
+    margin-top: -40px;
+
+    font-size: 30px;
+    margin-left: 200px;
     width: 100%;
-    
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
 }
 
-
-
-
-.callTo{
-
-    margin-top: 90px;
-    
-    width: 40%;
-}
 
 .join-form{
     
     align-items: center;
-    margin: 100px;
+    margin: 80px;
     
+}
+.container-form{
+    border: 1px solid black;
+    box-sizing: border-box;
+    margin-left: 150px;
+    border-radius: 5px;
+    
+}
+
+.container-form p{
+    font-size: 30px;
+    margin-left: 35px;
+    width: 100%;
 }
 
 .form-group,.form-group-Email{
     
-    margin:1rem;
+    margin:2rem;
     border-radius: 10%;
     display: flex;
     border-color: #ABC8D2;
@@ -61,7 +87,7 @@ body{
 
 .form-group label{
     font-size: 18px;
-    margin-left: 175px;
+    /* margin-left: 175px; */
     margin-right: 100px;
    
 }
@@ -73,7 +99,6 @@ body{
 }
 .form-group-Email label{
     font-size: 18px;
-    margin-left: 175px;
     margin-right: 120px;
 
 }
@@ -82,22 +107,17 @@ body{
 
 .btn {
     
-    background-color: white;
-    color: black;
-    border: 2px solid #70F1FA;
-    cursor:pointer;
-    
     margin-left: 350px;
     font-family: Roboto;
     font-size: 25px;
     margin-top: 15px;
-    transition-duration: 0.4s;
+    background: #FFA448;
+    border-radius: 30px;
+    border: #FFA448;
+    cursor:pointer;
 }
 
-.btn:hover{
-    background-color: #70F1FA; 
-    color: white;
-}
+
 
 .socialMedia {
     margin-top: 50px;
@@ -106,7 +126,7 @@ body{
     display: flex;
     justify-content: space-between;
     
-    background-color: #70F1FA;
+    
     
     
 }
