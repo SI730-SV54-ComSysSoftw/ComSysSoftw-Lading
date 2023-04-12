@@ -119,16 +119,63 @@ body{
 
 
 
+
+.discover{
+    
+    
+    
+    color:white;
+    background: #1D3557;
+    border-radius: 20px;
+    border: 1px solid black;
+    text-align: center;
+    padding:2rem;
+    width:100rem;
+    margin-left: 230px;
+
+    
+}
+
+.discover p{
+    font-family: 'Roboto';
+    font-style: normal; 
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 18px;
+    
+    
+}
+
+.btn-started{
+    color:white;
+    background: #FFA448;
+    border-radius: 30px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    margin-top: 70px;
+    padding: 1rem;
+    
+
+}
+
+
+/*-------------------------------------*/
+
+
+
+/*-------------------------------*/
+
+
 .socialMedia {
     margin-top: 50px;
     padding: 50px;
     width: 100%;
     display: flex;
     justify-content: space-between;
-    
-    
-    
-    
 }
 
 .column{
@@ -153,31 +200,23 @@ body{
 
 
 
-/*-------------------------------------*/
-
-
-
-/*-------------------------------*/
-
 
 
 .Sendmail {
-    background-color: #70F1FA;
-    color: black;
-    border: 2px solid black;
-    color:black;
-    font-family: Roboto;
-    font-size: 18px;
-    transition-duration: 0.4s;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
     cursor:pointer;
+    background: #FFA448;
+    width:149px;
+    border-color: #FFA448;
    
 }
 
-.Sendmail:hover{
-    background-color: black; 
-    color: white;
 
-}
 
 .d41 input{
     width: 50%;
