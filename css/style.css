@@ -1,0 +1,95 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto';
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #1D3557;
+}
+
+header {
+    background-image: url(/img/bg-header.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    max-width: 950px;
+    margin: auto;
+    padding: 2rem;
+}
+
+.navbar h1 {
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: uppercase;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #1D3557;
+}
+
+header section {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 2rem;
+    max-width: 950px;
+    margin: auto;
+    padding: 2rem;
+}
+
+header section h1 {
+    max-width: 600px;
+    margin: 0;
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 80px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+
+header section p {
+    max-width: 300px;
+    margin: 0;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+
+header section button {
+    background: #7EB4F3;
+    border: 1px solid #7EB4F3;
+    border-radius: 5px;
+    box-sizing: border-box;
+    cursor: pointer;
+    color: white;
+    padding: 0.5rem 1rem;
+}
