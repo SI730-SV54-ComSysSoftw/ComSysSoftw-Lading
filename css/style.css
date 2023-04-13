@@ -32,8 +32,7 @@
     z-index: 10;
 
 }
-.page-Goals ul {
-
+.page-Goals .ul {
     list-style-image: url("../img/check.png");
 }
 
