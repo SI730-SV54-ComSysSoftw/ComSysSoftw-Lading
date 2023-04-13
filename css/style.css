@@ -1,7 +1,19 @@
+*, *:before, *:after {
+    box-sizing: inherit;
+}  
+
+/* html {
+    box-sizing: border-box;
+    font-size: 100%;
+    min-height: 100%;
+} */
+
+
 body {
     padding: 0;
     margin: 0;
     font-family: 'Roboto';
+    font-size: 17px;
 }
 
 li {
@@ -93,3 +105,212 @@ header section button {
     color: white;
     padding: 0.5rem 1rem;
 }
+
+/* Contact us  */
+
+.ContactUs {
+    width: 100%;
+    display: flex;
+    font-family: Roboto;
+}
+
+
+.titlec{
+   
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 66px;
+    margin-left: 149px;
+    
+}
+
+.subtitlec{
+
+    margin-top: -40px;
+
+    font-size: 30px;
+    margin-left: 200px;
+    width: 100%;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+}
+
+
+.join-form{
+    
+    align-items: center;
+    margin: 80px;
+    
+}
+.container-form{
+    border: 1px solid black;
+    box-sizing: border-box;
+    margin-left: 150px;
+    border-radius: 5px;
+    
+}
+
+.container-form p{
+    font-size: 30px;
+    margin-left: 35px;
+    width: 100%;
+}
+
+.form-group,.form-group-Email{
+    
+    margin:2rem;
+    border-radius: 10%;
+    display: flex;
+    border-color: #ABC8D2;
+    justify-content: left;
+    
+}
+
+.form-group label{
+    font-size: 18px;
+    /* margin-left: 175px; */
+    margin-right: 100px;
+   
+}
+.form-group input,.form-group-Email input{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 1px 0;
+    box-sizing: border-box;
+}
+.form-group-Email label{
+    font-size: 18px;
+    margin-right: 120px;
+
+}
+
+
+
+.btn {
+    
+    margin-left: 350px;
+    font-family: Roboto;
+    font-size: 25px;
+    margin-top: 15px;
+    background: #FFA448;
+    border-radius: 30px;
+    border: #FFA448;
+    cursor:pointer;
+}
+
+
+/* discover */
+
+.discover{
+    
+    
+    
+    color:white;
+    background: #1D3557;
+    border-radius: 20px;
+    border: 1px solid black;
+    text-align: center;
+    padding:2rem;
+    width:100rem;
+    margin-left: 230px;
+
+    
+}
+
+.discover p{
+    font-family: 'Roboto';
+    font-style: normal; 
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 18px;
+    
+    
+}
+
+.btn-started{
+    color:white;
+    background: #FFA448;
+    border-radius: 30px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    margin-top: 70px;
+    padding: 1rem;
+    
+
+}
+
+
+/* socialmedia */
+
+.socialMedia {
+    margin-top: 50px;
+    padding: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.column{
+    font-family: Roboto;
+    justify-content: left;
+    width: 600px;
+    left: 20px;
+}
+
+
+.title{
+    
+    font-family: sans-serif;
+    font-size: 30px;
+    color: #1D3557;
+}
+.subtitle{
+    color: #181433;
+    font-family: "Roboto Thin";
+    font-size: 16px;
+}
+
+
+
+
+
+.Sendmail {
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    cursor:pointer;
+    background: #FFA448;
+    width:149px;
+    border-color: #FFA448;
+   
+}
+
+
+
+.d41 input{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.social {
+    height: 3rem;
+    margin-bottom: 2rem;
+    border-radius: 100%;
+}
+
