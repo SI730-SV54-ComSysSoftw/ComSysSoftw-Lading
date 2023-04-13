@@ -1,3 +1,15 @@
+:root {
+    --blue:#588CC7;
+    --green:#6EAC64;
+    --gris:#F1F1F1;
+    --greymid: #D9D9D9;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
 
 .page-Goals{
     background: #70F1FA;
@@ -36,20 +48,6 @@
 
     list-style-image: url(../img/check.png);
 }
-
-
-:root {
-    --blue:#588CC7;
-    --green:#6EAC64;
-    --gris:#F1F1F1;
-    --greymid: #D9D9D9;
-}
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-}
-
 
 .page-section{
     display: flex;
@@ -101,7 +99,6 @@
 body {
     padding: 0;
     margin: 0;
-    font-family: 'Roboto';
     font-size: 17px;
 }
 
@@ -200,14 +197,12 @@ header section button {
 .ContactUs {
     width: 100%;
     display: flex;
-    font-family: Roboto;
 }
 
 
 .titlec{
    
 
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 600;
     font-size: 48px;
@@ -224,7 +219,6 @@ header section button {
     margin-left: 200px;
     width: 100%;
 
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -285,7 +279,6 @@ header section button {
 .btn {
     
     margin-left: 350px;
-    font-family: Roboto;
     font-size: 25px;
     margin-top: 15px;
     background: #FFA448;
@@ -314,7 +307,6 @@ header section button {
 }
 
 .discover p{
-    font-family: 'Roboto';
     font-style: normal; 
     font-weight: 600;
     font-size: 52px;
@@ -327,7 +319,7 @@ header section button {
     color:white;
     background: #FFA448;
     border-radius: 30px;
-    font-family: 'Manrope';
+  /*  font-family: 'Manrope';*/
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -351,7 +343,6 @@ header section button {
 }
 
 .column{
-    font-family: Roboto;
     justify-content: left;
     width: 600px;
     left: 20px;
@@ -366,7 +357,6 @@ header section button {
 }
 .subtitle{
     color: #181433;
-    font-family: "Roboto Thin";
     font-size: 16px;
 }
 
@@ -376,7 +366,6 @@ header section button {
 
 .Sendmail {
 
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
