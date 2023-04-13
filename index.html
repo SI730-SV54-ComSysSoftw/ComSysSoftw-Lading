@@ -1,10 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ComSysSoftw</title>
-  </head>
-  <body></body>
+<head>
+    <meta charset="UTF-8">
+    <title>Healthy Pets | Para mejores y sanas mascotas</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script src="js/slideshow.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300;400&display=swap"
+          rel="stylesheet">
+    <meta name="description"
+          content="Impacto Corp presenta Healthy Pets, un aplicativo perfecto para contactar a las veterinarias y atender a tu mascota de la mejor forma">
+    <link rel="stylesheet" href="">
+</head>
+
+
+<body onload="showSlides(slideIndex)">
+
+<!-- About us-->
+<section class="AboutUs" id="AboutUs">
+    <div class="AboutUs">
+        <div class="title">
+            <h1 class="textAlign" id="AUtittle">Healthy Pets Team</h1>
+            <hr/>
+            <p class="content">Healthy Pets is a Startup made up of a group of students from the
+                Peruvian University of Applied Sciences,
+                who seek solutions to the different problems that can arise in people's daily lives, through
+                technological developments created by the team.
+            </p>
+            <h2 class="textAlign" id="members">Members</h2>
+
+        </div>
+
+
+        <div class="slideshow">
+            <div class="slide">
+                <img src="img/lynn.jpg" alt="Imagen 1">
+                <div class="slide-content">
+                    <div class="slide-text">Lynn Meza</div>
+                </div>
+            </div>
+
+            <div class="slide">
+                <img src="img/sergio.jpg" alt="Imagen 2">
+                <div class="slide-content">
+                    <div class="slide-text">Sergio Bazan</div>
+                </div>
+            </div>
+
+            <div class="slide">
+                <img src="img/alfredo.jpg" alt="Imagen 3">
+                <div class="slide-content">
+                    <div class="slide-text">Alfredo Farro</div>
+                </div>
+            </div>
+
+            <div class="slide">
+                <img src="img/rodrigo.jpg" alt="Imagen 4">
+                <div class="slide-content">
+                    <div class="slide-text">Rodrigo Pozo</div>
+                </div>
+            </div>
+
+            <div class="slide">
+                <img src="img/emilia.jpg" alt="Imagen 5">
+                <div class="slide-content">
+                    <div class="slide-text">Emilia Durán</div>
+                </div>
+            </div>
+
+            <!-- Flechas -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+
+        <!-- Contenedor de puntos -->
+        <div class="dot-container">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+        </div>
+
+
+    </div>
+</section>
+
+
+
+
+</body>
+
 </html>
