@@ -89,13 +89,6 @@
     list-style-image:url(../img/arrow_forward_list.png) ;
 }
 
-/* html {
-    box-sizing: border-box;
-    font-size: 100%;
-    min-height: 100%;
-} */
-
-
 body {
     padding: 0;
     margin: 0;
@@ -293,19 +286,14 @@ header section button {
 /* discover */
 
 .discover{
-    
-    
-    
     color:white;
     background: #1D3557;
     border-radius: 20px;
     border: 1px solid black;
     text-align: center;
     padding:2rem;
-    width:100rem;
-    margin-left: 230px;
-
-    
+    width:80%;
+    margin:auto;
 }
 
 .discover p{
@@ -313,15 +301,14 @@ header section button {
     font-weight: 600;
     font-size: 52px;
     line-height: 80px;
-    
-    
 }
 
 .btn-started{
     color:white;
     background: #FFA448;
     border-radius: 30px;
-  /*  font-family: 'Manrope';*/
+    font-family: 'Manrope', sans-serif;
+
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
