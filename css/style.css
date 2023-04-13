@@ -1,4 +1,43 @@
 
+.page-Goals{
+    background: #70F1FA;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    height: 500px;
+    padding: 50px  80px 50px 80px;
+    justify-content: space-between;
+}
+
+.page-Goals .container{
+    width: 40%;
+    max-width: 1000px;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.page-Goals .row{
+    width: 100%;
+}
+
+.page-Goals .h1{
+    width: 40%;
+    font-size: 60px;
+
+}
+
+.page-Goals .img{
+    width: 38%;
+    z-index: 10;
+
+}
+.page-Goals ul {
+
+    list-style-image: url("../img/check.png");
+}
+
+
 :root {
     --blue:#588CC7;
     --green:#6EAC64;
@@ -363,5 +402,4 @@ header section button {
     margin-bottom: 2rem;
     border-radius: 100%;
 }
-
 
