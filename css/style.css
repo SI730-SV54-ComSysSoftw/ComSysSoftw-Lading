@@ -34,7 +34,7 @@
 }
 .page-Goals ul {
 
-    list-style-image: url(img/check.png);
+    list-style-image: url(../img/check.png);
 }
 
 
@@ -88,7 +88,7 @@
 }
 
 .card .ul{
-    list-style-image:url(img/arrow_forward_list.png) ;
+    list-style-image:url(../img/arrow_forward_list.png) ;
 }
 
 /* html {
@@ -120,7 +120,7 @@ a {
 }
 
 header {
-    background-image: url(img/bg-header.png);
+    background-image: url(../img/bg-header.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
