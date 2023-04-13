@@ -1,3 +1,15 @@
+:root {
+    --blue:#588CC7;
+    --green:#6EAC64;
+    --gris:#F1F1F1;
+    --greymid: #D9D9D9;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
 
 .page-Goals{
     background: #70F1FA;
@@ -36,20 +48,6 @@
 
     list-style-image: url(../img/check.png);
 }
-
-
-:root {
-    --blue:#588CC7;
-    --green:#6EAC64;
-    --gris:#F1F1F1;
-    --greymid: #D9D9D9;
-}
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-}
-
 
 .page-section{
     display: flex;
@@ -91,17 +89,9 @@
     list-style-image:url(../img/arrow_forward_list.png) ;
 }
 
-/* html {
-    box-sizing: border-box;
-    font-size: 100%;
-    min-height: 100%;
-} */
-
-
 body {
     padding: 0;
     margin: 0;
-    font-family: 'Roboto';
     font-size: 17px;
 }
 
@@ -200,19 +190,18 @@ header section button {
 .ContactUs {
     width: 100%;
     display: flex;
-    font-family: Roboto;
 }
 
 
 .titlec{
    
 
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 600;
     font-size: 48px;
-    line-height: 66px;
+    line-height: 150px;
     margin-left: 149px;
+    margin-top: -100px;
     
 }
 
@@ -220,11 +209,10 @@ header section button {
 
     margin-top: -40px;
 
-    font-size: 30px;
+    /* font-size: 30px; */
     margin-left: 200px;
     width: 100%;
 
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -243,6 +231,7 @@ header section button {
     box-sizing: border-box;
     margin-left: 150px;
     border-radius: 5px;
+    margin-top: 20px;
     
 }
 
@@ -285,7 +274,6 @@ header section button {
 .btn {
     
     margin-left: 350px;
-    font-family: Roboto;
     font-size: 25px;
     margin-top: 15px;
     background: #FFA448;
@@ -298,36 +286,29 @@ header section button {
 /* discover */
 
 .discover{
-    
-    
-    
     color:white;
     background: #1D3557;
     border-radius: 20px;
     border: 1px solid black;
     text-align: center;
     padding:2rem;
-    width:100rem;
-    margin-left: 230px;
-
-    
+    width:80%;
+    margin:auto;
 }
 
 .discover p{
-    font-family: 'Roboto';
     font-style: normal; 
     font-weight: 600;
     font-size: 52px;
-    line-height: 18px;
-    
-    
+    line-height: 80px;
 }
 
 .btn-started{
     color:white;
     background: #FFA448;
     border-radius: 30px;
-    font-family: 'Manrope';
+    font-family: 'Manrope', sans-serif;
+
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -351,7 +332,6 @@ header section button {
 }
 
 .column{
-    font-family: Roboto;
     justify-content: left;
     width: 600px;
     left: 20px;
@@ -363,11 +343,12 @@ header section button {
     font-family: sans-serif;
     font-size: 30px;
     color: #1D3557;
+    line-height: 50px;
 }
 .subtitle{
     color: #181433;
-    font-family: "Roboto Thin";
     font-size: 16px;
+    line-height: 30px;
 }
 
 
@@ -376,7 +357,6 @@ header section button {
 
 .Sendmail {
 
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
